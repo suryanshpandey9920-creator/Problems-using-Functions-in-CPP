@@ -3,7 +3,7 @@ using namespace std;
 
 void Even_Odd(int n) {
     if (n>0 && n%2==0){
-        cout << "this number is Even ";
+        cout << "this number is positive Even ";
     }
     else if (n<0 && n%2==0){
         cout << "this number is Even Negative number";
@@ -11,8 +11,11 @@ void Even_Odd(int n) {
     else if (n<0 && n%2!=0){
         cout << "this number is Odd Negative number";
     }
+    else if (n>0 && n%2 !=0) {
+        cout << "this number is positive Odd";
+    }
     else {
-        cout << "this number is Odd";
+        cout << "this number is zero even";
     }
 
     return ;
